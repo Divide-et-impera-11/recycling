@@ -1,0 +1,27 @@
+.center{
+
+overflow: hidden
+}
+
+.center .content{
+    overflow: scroll; /*hidden*/
+    background-color: "#ffffff";
+    position: relative;
+    min-height: calc(100vh - 9.20863309352518vh);
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+    /*adott*/
+    height: 250px;
+    width: auto;
+ 
+}
+.center_illustration{
+    max-width: 70%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

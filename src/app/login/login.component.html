@@ -1,0 +1,36 @@
+<section class="wrapper">
+    	<div class="container">
+		    <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+				<div class="logo">
+					<img src="assets/images/PRENOR_kozepes.png" class="img-fluid" alt="Logo">
+				</div>
+				<form  class="rounded bg-white shadow py-5 px-4" (submit)="login()">
+					<h3 class="text-dark fw-bolder fs-4 mb-2">Faiskola</h3>
+                    <br>
+					<!--
+						<div class="form-floating mb-3">
+						<input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com"
+						[(ngModel)]="credentials.email">
+						<label for="floatingInput">Email</label>
+					</div>
+					-->
+					<div class="form-floating mb-3">
+						<input type="text" class="form-control" name="username" id="floatingInput" placeholder="name@example.com"
+						[(ngModel)]="credentials.username">
+						<label for="floatingInput">Felhasználónév</label>
+					</div>
+					<div class="form-floating">
+						<input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password"
+						[(ngModel)]="credentials.password">
+						<label for="floatingPassword">Jelszó</label>
+					</div>
+					<div class="mt-2 text-end">
+						<a href="#" class="text-primary fw-bold text-decoration-none">Elfelejtett jelszó?</a>
+					</div>
+					<button type="submit" class="btn btn-primary submit_btn w-100 my-4">Folytatás</button>
+				</form>
+			</div>
+		</div>
+    </section>
+
+

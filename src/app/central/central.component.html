@@ -1,0 +1,15 @@
+<!--static -->
+<div class="center">
+    <!-- toolbar -->
+    <toolbar-comp></toolbar-comp>
+    <!-- sidenav -->
+    <sidenav-comp></sidenav-comp>
+    <!-- dynamic -->
+    <!--div class="container content">-->
+        <div class="content">
+            <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "ball-clip-rotate-pulse" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
+        <!--Illustration-->
+        <!--<img src="{{ illustration.url }}" class="center_illustration"  alt="URL error">-->
+        <router-outlet></router-outlet>   
+    </div> 
+</div>

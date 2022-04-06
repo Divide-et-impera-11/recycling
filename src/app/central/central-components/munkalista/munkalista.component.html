@@ -1,0 +1,17 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th *ngFor="let col of columns" >
+                {{col.title}}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let ml_e of list$ | async">
+            <td> {{ ml_e.NOVKOD }} </td>
+            <td> {{ ml_e.NEV1 }} </td>
+        </tr>
+    </tbody>
+</table>
+
+<!--{{ list$ | async | json }}-->

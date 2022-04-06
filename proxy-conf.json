@@ -1,0 +1,6 @@
+{
+    "/" :{
+        "target": "http://prdata.prenor.hu:3000",
+        "secure": false
+    }
+}
